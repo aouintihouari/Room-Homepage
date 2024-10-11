@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="scss/style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <header class="image__container">
+          <picture>
+            <source
+              id="imgSrcet"
+              srcset="images/mobile-image-hero-1.jpg"
+              media="(max-width: 448px)"
+            />
+            <img
+              class="image"
+              id="image"
+              class="image"
+              src="images/desktop-image-hero-1.jpg"
+              alt="image"
+            />
+          </picture>
+          <nav id="navbar" class="navbar">
+            <div id="hamburger-container" class="hamburger__container">
+              <img
+                id="hamburger"
+                class="hamburger__icon"
+                src="images/icon-hamburger.svg"
+                alt="hamburger"
+              />
+              <img
+                id="close"
+                class="close__icon"
+                src="images/icon-close.svg"
+                alt="close"
+              />
+            </div>
+            <div class="overlay" id="overlay"></div>
+            <div class="logo__container" id="logo">
+              <img class="logo" src="images/logo.svg" alt="logo" />
+            </div>
+            <ul id="navbar-list" class="navbar__list">
+              <li class="navbar__item">home</li>
+              <li class="navbar__item">shop</li>
+              <li class="navbar__item">about</li>
+              <li class="navbar__item">contact</li>
+            </ul>
+          </nav>
+          <aside class="arrows__container">
+            <img
+              id="left"
+              class="left__arrow"
+              src="images/icon-angle-left.svg"
+              alt="left arrow"
+            />
+            <img
+              id="right"
+              class="right__arrow"
+              src="images/icon-angle-right.svg"
+              alt="right arrow"
+            />
+          </aside>
+        </header>
+        <article class="text__container">
+          <h1 class="text__title" id="heading">
+            Discover innovative ways to decorate
+          </h1>
+          <p class="text__description" id="description">
+            We provide unmatched quality, comfort, and style for property owners
+            across the country. Our experts combine form and function in
+            bringing your vision to life. Create a room in your own style with
+            our collection and make your property a reflection of you and what
+            you love.
+          </p>
+          <aside class="cta__container">
+            <div class="cta__text">SHOP NOW</div>
+            <div class="cta__arrow">
+              <img src="images/icon-arrow.svg" alt="arrow" />
+            </div>
+          </aside>
+        </article>
+      </section>
+      <footer class="about">
+        <img src="images/image-about-dark.jpg" alt="dark image" />
+        <article class="about__container">
+          <h2 class="about__title">ABOUT OUR FURNITURE</h2>
+          <p class="about__description">
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </article>
+        <img src="images/image-about-light.jpg" alt="light image" />
+      </footer>
+    </main>
+  </body>
+</html>
